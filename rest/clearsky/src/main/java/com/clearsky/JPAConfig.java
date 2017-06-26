@@ -35,7 +35,7 @@ public class JPAConfig {
 	public DataSource dataSource() {
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
 		dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-		dataSource.setUrl("jdbc:mysql://localhost:3306/clearskyDB?createDatabaseIfNotExist=true");
+		dataSource.setUrl("jdbc:mysql://clearsky.cvebv7iblwmp.us-west-1.rds.amazonaws.com:3306/clearsky?createDatabaseIfNotExist=true");
 		dataSource.setUsername("root");
 		dataSource.setPassword("sandymask35");
 		return dataSource;
