@@ -21,7 +21,7 @@ import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
 
 @RestController
-@RequestMapping(value = "/v2/api/weather")
+@RequestMapping(value = "/api/weather")
 @Api(tags = "weather")
 public class WeatherController {
 
